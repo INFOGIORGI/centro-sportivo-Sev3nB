@@ -24,7 +24,7 @@ Il software deve essere realizzato attraverso la classe principale **CentroSport
    - I soci possono essere assegnati a uno o più istruttori tramite il metodo `assegnaIstruttore()`, che riceve come parametri il **codice socio** e il **codice istruttore**. Il metodo restituisce:  
      - `true` in caso di assegnazione riuscita.  
      - `false` in caso di fallimento (es. socio o istruttore inesistente o se il socio è già stato assegnato allo stesso istruttore).  
-   - Un socio può essere rimosso da un’assegnazione con un istruttore specifico tramite il metodo `rimuoviAssegnazione()`, che riceve il **codice socio** e il **codice istruttore**. Il metodo restituisce `true` se l’assegnazione è stata rimossa, `false` altrimenti (es. socio o istruttore inesistente o se il socio non è stato assegnato all'istruttore).  
+   - Un socio può essere rimosso da un’assegnazione con un istruttore specifico tramite il metodo `rimuoviAssegnazione()`, che riceve il **codice socio** e il **acodice istruttore**. Il metodo restituisce `true` se l’assegnazione è stata rimossa, `false` altrimenti (es. socio o istruttore inesistente o se il socio non è stato assegnato all'istruttore).  
    - Dato il codice di un istruttore, è possibile ottenere la lista dei soci assegnati tramite il metodo `getSoci()` della classe CentroSportivo che restituisce una stringa contenente tutti i soci (uno per riga).
    
 4. **Attività**
